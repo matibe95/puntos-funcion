@@ -271,7 +271,7 @@ export const NIVELES_INFLUENCIA = [
             },
             {
                 grado: 5,
-                description: 'Además del punto 3, se proporcionaron y probaron herramientas de conversión automática e implementación., y la configuración se hace a través de parámetros que el usuario puede cambiar.'
+                description: 'Además del punto 3, se proporcionaron y probaron herramientas de conversión automática e implementación.'
             },
         ]
     },
