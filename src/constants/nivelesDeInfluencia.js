@@ -280,7 +280,7 @@ export const NIVELES_INFLUENCIA = [
         title: 'Facilidad de operación',
         options: [
             'Fueron desarrollados procedimientos de inicialización y respaldo, siendo necesaria la intervención del operador',
-            'Se establecieron procesos de inicialización, respaldo y recuperación sin ninguna intervención del operador, siendo necesaria la intervención del operador',
+            'Se establecieron procesos de inicialización, respaldo y recuperación sin ninguna intervención del operador',
             'La aplicación minimiza la necesidad de montaje de cintas magnéticas',
             'La aplicación minimiza la necesidad de manoseo de papel',
         ],
