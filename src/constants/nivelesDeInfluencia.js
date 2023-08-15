@@ -280,7 +280,7 @@ export const NIVELES_INFLUENCIA = [
         title: 'Facilidad de operación',
         options: [
             'Fueron desarrollados procedimientos de inicialización y respaldo, siendo necesaria la intervención del operador',
-            'Se establecieron procesos de inicialización, respaldo y recuperación sin ninguna intervención del operador (contar como 2 items), siendo necesaria la intervención del operador',
+            'Se establecieron procesos de inicialización, respaldo y recuperación sin ninguna intervención del operador, siendo necesaria la intervención del operador',
             'La aplicación minimiza la necesidad de montaje de cintas magnéticas',
             'La aplicación minimiza la necesidad de manoseo de papel',
         ],
@@ -308,7 +308,7 @@ export const NIVELES_INFLUENCIA = [
             },
             {
                 grado: 5,
-                description: 'La aplicación fue diseñada para funcionar sin la necesidad de un operador; ninguna intervención del operador es necesaria para operar, excepto para iniciar y cerrar la aplicación. La aplicación tiene rutinas automáticas de recuperación en caso de errores., pero se necesitan procedimientos especiales en la implementación.'
+                description: 'La aplicación fue diseñada para funcionar sin la necesidad de un operador; ninguna intervención del operador es necesaria para operar, excepto para iniciar y cerrar la aplicación. La aplicación tiene rutinas automáticas de recuperación en caso de errores.'
             },
         ]
     },
