@@ -439,7 +439,7 @@ export const NIVELES_INFLUENCIA = [
             'Están disponibles facilidades como consultas e informes flexibles para atender necesidades de complejidad media (contar 2 items)',
             'Están disponibles facilidades como consultas e informes flexibles para atender necesidades complejas (contar 3 items)',
             'Datos de control son almacenados en tablas que son mantenidas por el usuario a través de procesos on-line, pero los cambios se hacen efectivos solamente al día siguiente',
-            'Datos de control son almacenados en tablas que son mantenidas por el usuario a través de procesos on-line, pero los cambios se hacen efectivos inmediatamente (contar 2 items) , pero los cambios se hacen efectivos solamente al día siguiente',
+            'Datos de control son almacenados en tablas que son mantenidas por el usuario a través de procesos on-line, pero los cambios se hacen efectivos inmediatamente (contar 2 items)',
         ],
         grados: [
             {
