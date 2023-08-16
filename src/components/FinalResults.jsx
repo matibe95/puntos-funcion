@@ -1,6 +1,5 @@
-import { useState } from "react";
 import { CustomTable } from "./CustomTable";
-import { Link, Navigate, redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   getAllFunctionPoints,
   getAllValues,
@@ -8,11 +7,9 @@ import {
 import { calculateDays } from "../functions/calculateDays";
 import JSConfetti from "js-confetti";
 import { AllFunctionPointsTable } from "./AllFunctionPointsTable";
-
 export const FinalResults = () => {
   const allValues = getAllValues();
   const { horasHombre, allInfo } = calculateFinalResult(allValues);
-  const [finalResult, setFinalResult] = useState(horasHombre);
 
   const finishTour = () => {
     const jsConfetti = new JSConfetti();
