@@ -1,9 +1,13 @@
 import { useState } from "react";
 import { CustomTable } from "./CustomTable";
 import { Link, Navigate, redirect } from "react-router-dom";
-import { getAllValues } from "../functions/valuesFromLocalStorage";
+import {
+  getAllFunctionPoints,
+  getAllValues,
+} from "../functions/valuesFromLocalStorage";
 import { calculateDays } from "../functions/calculateDays";
 import JSConfetti from "js-confetti";
+import { AllFunctionPointsTable } from "./AllFunctionPointsTable";
 
 export const FinalResults = () => {
   const allValues = getAllValues();
@@ -17,11 +21,14 @@ export const FinalResults = () => {
     });
   };
 
+  const allFunctionPoints = getAllFunctionPoints();
+
   return (
     <div className="flex flex-col pt-12 text-baseColor gap-6">
       <section className="flex flex-col gap-4 text-left">
         <h1 className="text-4xl font-bold">
-          Resultados finales: <span className="text-accent">{horasHombre}</span>
+          Resultados finales: <span className="text-accent">{horasHombre}</span>{" "}
+          <span className="italic">HH</span>
         </h1>
         <p className="">
           Aquí puedes encontras los resultados de todos los calculados
@@ -41,6 +48,10 @@ export const FinalResults = () => {
           </span>
         </h3>
         <CustomTable values={Object.entries(allInfo.team)} />
+      </section>
+      <section className="flex flex-col gap-3">
+        <h3 className="text-left">Reporte extendido</h3>
+        <AllFunctionPointsTable allFunctionPoints={allFunctionPoints} />
       </section>
       <div className="flex justify-center gap-3 items-center">
         <Link
