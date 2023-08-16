@@ -28,9 +28,9 @@ export const Home = () => {
             >
               Comenzar
             </Link>
-            <button className="boton-secundario bg-secondary py-3 px-6">
+            {/* <button className="boton-secundario bg-secondary py-3 px-6">
               ¿Cómo funciona?
-            </button>
+            </button> */}
           </section>
           <div className="flex gap-2 items-center">
             <MouseIcon />
@@ -55,6 +55,12 @@ export const Home = () => {
             );
           })}
         </div>
+      </section>
+      <section className="text-baseColor mt-16 flex flex-col gap-4">
+        <h2 className="text-xl text-left font-semibold">
+          Próxima implementación:{" "}
+          <span className="text-primary">Documentación 📚</span>
+        </h2>
       </section>
       {/* <section className="text-baseColor mt-16 flex flex-col gap-4">
         <h2 className="text-xl font-semibold">Preguntas Frecuentes</h2>
